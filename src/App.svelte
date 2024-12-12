@@ -7,7 +7,7 @@
   // Use environment variables to determine the WebSocket URL
   const WS_URL = import.meta.env.DEV 
     ? 'ws://localhost:8889'
-    : `wss://${window.location.hostname}:8889`;
+    : `wss://deafening-retha-jesses-org-14074d50.koyeb.app:8889`;
 
   // API URL
   const API_URL = 'https://deafening-retha-jesses-org-14074d50.koyeb.app/electronic_arts/games_list';
