@@ -9,7 +9,7 @@
 
   function setupWebSocket() {
     // Connect to your WebSocket server
-    ws = new WebSocket('ws://your-server:8889');
+    ws = new WebSocket('ws://deafening-retha-jesses-org-14074d50.koyeb.app:8889');
 
     ws.onmessage = async (event) => {
       const update = JSON.parse(event.data);
